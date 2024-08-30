@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.parent {
+  background-color: #f0f0f0;
+}
+.body {
+  background-color: #202224;
+  padding: 5%
+}
+.icon{
+    width: 25px;
+    height: 25px;
+}
+.no_credit{
+    color: #707478;
+}
+i{
+    color:#707478
+}
+.footer{
+    position: absolute ;
+    bottom:15% 
+}
+.footer_end{
+    position: absolute;
+    bottom:15% ;
+    left: 41%;
+}
