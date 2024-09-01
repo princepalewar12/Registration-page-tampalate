@@ -7,7 +7,12 @@
   background-color: #f0f0f0;
 }
 .body {
-  background-color: #202224;
+  /* background-color: #0d0f11; */
+  /* background-image: radial-gradient( yellow 15%, #0d0f11 60%); */
+  background-color: #000;
+  background-image: radial-gradient(circle 50vh at 50% 0%, #e6ec462f 1%, #0000 110%); 
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
   padding: 5%
 }
 .icon{
@@ -30,20 +35,26 @@ i{
     left: 41%;
 }
 .form_section{
-  background-color: #70747835;
+  background-color: #70747847;
 }
 .register_with{
   padding: 0px 35px;
-  background-color: #70747863;
+  background-color: #70747833;
 }
 input{
-  background-color: #70747863;
+  background-color: #70747833;
   border: none;
   height: 30px;
 
 }
-input:active{
-  border:none
+input{
+  outline:none;
+  padding: 10px;
+  color: white;
+  
+}
+input:hover{
+  outline:2px solid #e6ec46;
 }
 .upper_section{
   padding-bottom: 30px;
